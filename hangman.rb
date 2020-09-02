@@ -10,7 +10,7 @@ def hangman (param_1, param_2)
     puts array_after_guess.join
 end
 
-puts 'Provide a one word: '
+puts 'Provide one word: '
 param_1 = gets.chomp
 puts "Enter only one letter: "
 one_letter = gets.chomp
